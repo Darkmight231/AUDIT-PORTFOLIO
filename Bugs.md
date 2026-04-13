@@ -1,7 +1,7 @@
 # Bugs in Codearena - Redteamer
 
 ## BlackHole Contest:❗ Low Severity – recoverERC20() does not revert if balance is zero
-Finding link: code4rena.com/audits/2025-05-blackhole/submissions/S-32
+Finding link: https://code4rena.com/audits/2025-05-blackhole/submissions/S-32
 
 # Bugs in Cantina - Redteamer
 
@@ -13,7 +13,7 @@ Finding link: cantina.xyz/code/990ce947-05da-443e-b397-be38a65f0bff/findings?s=c
 
 
 ## Avonpool Contest (Cantina, 2025)
-Finding Link: https://cantina.xyz/code/708eecf5-a6a0-46c1-a949-277f7408decc/findings/270
+- Finding Link: https://cantina.xyz/code/708eecf5-a6a0-46c1-a949-277f7408decc/findings/270
 ​Performed in-depth penetration testing on a DeFi protocol as part of a competitive audit.
 ​Identified Critical ERC4626 Inflation Attack: Discovered a vulnerability in Vault.sol allowing share price manipulation to steal subsequent user deposits.
 ​Identified High-Impact MemoryLimitOOG (DoS) Vulnerability: Found that stale share values in the redeem() function could trigger an Out-of-Gas error, permanently freezing user funds.
