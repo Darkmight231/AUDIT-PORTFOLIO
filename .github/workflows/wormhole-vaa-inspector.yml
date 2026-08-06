@@ -1,0 +1,32 @@
+name: Wormhole VAA Inspector CI
+
+on:
+  push:
+    paths:
+      - "tools/wormhole-vaa-inspector/**"
+      - ".github/workflows/wormhole-vaa-inspector.yml"
+  pull_request:
+    paths:
+      - "tools/wormhole-vaa-inspector/**"
+      - ".github/workflows/wormhole-vaa-inspector.yml"
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: tools/wormhole-vaa-inspector
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tools/wormhole-vaa-inspector/package-lock.json
+      - run: npm ci
+      - run: npm run build
+      - run: npm test

@@ -56,6 +56,7 @@ The Wormchain review is written up in full because the negative result is itself
 
 ## Tooling & Skills
 
+- **Security tooling:** [Wormhole VAA Inspector](./tools/wormhole-vaa-inspector) — strict TypeScript decoder and guardian-signature validator for Wormhole VAAs
 - **Languages:** Solidity, TypeScript, Rust (Soroban/Stellar), Go (Cosmos SDK)
 - **Frameworks:** Foundry, Hardhat
 - **Focus areas:** ERC4626 vault mechanics, access control, DoS/griefing vectors, accounting/invariant bugs, DeFi economic exploits

@@ -1,0 +1,21 @@
+{
+  "name": "wormhole-vaa-inspector",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Strict TypeScript decoder and validator for Wormhole VAAs",
+  "type": "module",
+  "bin": { "vaa-inspect": "dist/cli.js" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "dev": "tsx src/cli.ts"
+  },
+  "dependencies": { "ethers": "^6.15.0" },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "fast-check": "^4.2.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
