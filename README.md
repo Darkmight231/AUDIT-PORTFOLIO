@@ -1,6 +1,6 @@
 # Smart Contract Security Audit Portfolio
 
-Security researcher focused on EVM smart contract auditing — competitive audit contests and independent protocol reviews. Findings range from Critical-severity fund-loss vulnerabilities to logic/QA issues, with working Foundry proof-of-concept exploits.
+Security researcher focused on EVM smart contract auditing — competitive audit contests and independent protocol reviews. Findings range from High-severity fund-loss vulnerabilities to logic/QA issues, with working Foundry proof-of-concept exploits.
 
 ## Track Record
 
